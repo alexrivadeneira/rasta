@@ -1,6 +1,8 @@
 body{
-	font-family: "Century Schoolbook", times;
+	font-family: "Roboto", times;
 	background: #e2eceb;
+
+
 }
 
 .pleasant-scene{
@@ -10,29 +12,49 @@ body{
 .starburst{
 	position: absolute;
 	display: block;
-	top: 500;
+	left: -230px;
 	z-index: -99;
 	opacity: 0;
 	margin: 0 auto;
 }
+
+.grass{
+	background: url('img/grass.png');
+	background-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.green-bg{
+	background: #65ce33;
+}
+
+
+
+h1{
+	font-size: 90px;
+	padding-top: 30px;
+
+}
+
+h1, h2, h3, h4{
+	font-family: 'Asul', sans-serif;
+
+}
+
 p{
 	font-size: 25px;
 }
 
-h1{
-	font-size: 60px;
-	font-family: sans-serif;
-}
-h2{
-	font-weight: 600;
+h3{
+	font-weight: 500;
+
 }
 
-
-.signature{
-	font-family: Papyrus;
-	font-size: 50px;
-	transform: rotate(-3deg);
+.footer-icon{
+	width: 100px;
 }
+
 
 
 

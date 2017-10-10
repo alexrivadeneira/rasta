@@ -1,7 +1,7 @@
-controllers.navbar = function(current){
-	content = views.navbar(current);
+// controllers.navbar = function(current){
+// 	content = views.navbar(current);
 
-	var pages = views.navbar();
+// 	var pages = views.navbar();
 
-	router.render(navBar, content);
-}
+// 	router.render(navBar, content);
+// }

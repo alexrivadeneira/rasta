@@ -1,13 +1,12 @@
 // Velocity(element1, {property: value}, {option: optionValue});
 
-console.log("himom");
 window.onscroll = function(){
 
-  if(window.scrollY > 20){
+  if(window.scrollY > 40){
     var starburst = document.getElementById("starburst");
     Velocity(starburst, {
       opacity: .5,
-      translateY: '-130px',
+      translateY: '-200px',
     }, {
       easing: [1000, 20],
       duration: 2000,
